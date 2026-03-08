@@ -29,3 +29,11 @@ def subscribe_twist(msg):
 # Main execution
 twist_message = publish_twist()
 subscribe_twist(twist_message)
+OUTPUT:
+Publishing Twist Message...
+Linear Velocity: 1.0
+Angular Velocity: 0.5
+
+Subscriber Received Message
+Robot Moving Forward
+Robot Rotating
